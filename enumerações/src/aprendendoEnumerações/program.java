@@ -1,9 +1,9 @@
-package a.aprendendoEnumerações;
+package aprendendoEnumerações;
 
 import java.util.Date;
 
-import a.entities.aprendendoEnumerações.Order;
-import a.entities.enums.aprendendoEnumerações.OrderStatus;
+import entities.aprendendoEnumerações.Order;
+import entities.enums.aprendendoEnumerações.OrderStatus;
 
 public class program {
 

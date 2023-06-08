@@ -1,4 +1,4 @@
-package a.entities.enums.aprendendoEnumerações;
+package entities.enums.aprendendoEnumerações;
 
 public enum OrderStatus {
 	PENDING_PAYMENT,

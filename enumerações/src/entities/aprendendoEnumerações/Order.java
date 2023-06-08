@@ -1,8 +1,8 @@
-package a.entities.aprendendoEnumerações;
+package entities.aprendendoEnumerações;
 
 import java.util.Date;
 
-import a.entities.enums.aprendendoEnumerações.OrderStatus;
+import entities.enums.aprendendoEnumerações.OrderStatus;
 
 public class Order {
 	private Integer id;
