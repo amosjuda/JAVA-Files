@@ -1,4 +1,4 @@
-package entities;
+package exer1entities;
 
 import java.util.Date;
 

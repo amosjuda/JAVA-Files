@@ -1,10 +1,10 @@
-package entities;
+package exer1entities;
 
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
-import entities.enums.WorkerLevel;
+import exer1entities.enums.WorkerLevel;
 
 public class Worker {
 	private String name;
