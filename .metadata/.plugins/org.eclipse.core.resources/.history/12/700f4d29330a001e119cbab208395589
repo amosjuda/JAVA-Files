@@ -1,0 +1,42 @@
+package exerFixoderingsystem;
+
+import java.text.SimpleDateFormat;
+import java.util.Locale;
+import java.util.Scanner;
+
+public class programOrder {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+		
+		System.out.println("Enter cliente data:");
+		System.out.print("Name: ");
+		
+		System.out.print("Email: ");
+		
+		System.out.print("Birth date (DD/MM/YYYY): ");
+		
+		System.out.println("Enter order data: ");
+		System.out.print("Status: ");
+		
+		System.out.print("How many items to this order? ");
+		
+		
+		for(int i =1; i>= n; i++) {
+			System.out.println("Enter #" + i + " item data: ");
+			System.out.println("Product name: ");
+			
+			System.out.println("Product price: ");
+			
+			System.out.println("Quantity: ");
+			
+		}
+		System.out.println();
+		
+		System.out.println();
+		
+		sc.close();
+	}
+}

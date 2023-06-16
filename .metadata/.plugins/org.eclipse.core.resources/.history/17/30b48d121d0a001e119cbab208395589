@@ -1,0 +1,5 @@
+package exerFixentities.enums;
+
+public enum OrderStatus {
+
+}
