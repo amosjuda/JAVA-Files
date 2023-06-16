@@ -5,14 +5,17 @@
     <fullyQualifiedTypeName name="java.time.ZoneId"/>
     <fullyQualifiedTypeName name="java.time.temporal.ChronoUnit"/>
     <fullyQualifiedTypeName name="java.time.Duration"/>
-    <fullyQualifiedTypeName name="entities.enums.aprendendoEnumerações.OrderStatus"/>
     <fullyQualifiedTypeName name="java.util.Calendar"/>
     <fullyQualifiedTypeName name="entities.Worker"/>
     <fullyQualifiedTypeName name="entities.HourContract"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="exer2entities.Comment"/>
     <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="exer2entities.Post"/>
+    <fullyQualifiedTypeName name="entities.enums.aprendendoEnumerações.OrderStatus"/>
+    <fullyQualifiedTypeName name="exerFixentities.OrderItem"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="exerFixentities.Order"/>
+    <fullyQualifiedTypeName name="exerFixentities.enums.OrderStatus"/>
 </qualifiedTypeNameHistroy>
