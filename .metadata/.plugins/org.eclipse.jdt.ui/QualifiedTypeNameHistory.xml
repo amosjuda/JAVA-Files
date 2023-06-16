@@ -18,4 +18,9 @@
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="exerFixentities.Order"/>
     <fullyQualifiedTypeName name="exerFixentities.enums.OrderStatus"/>
+    <fullyQualifiedTypeName name="heritageAndPolymorphism.Program"/>
+    <fullyQualifiedTypeName name="heritageAndPolymorphism.entities.SavingsAccount"/>
+    <fullyQualifiedTypeName name="heritageAndPolymorphism.entities.Account"/>
+    <fullyQualifiedTypeName name="heritageAndPolymorphism.entities.BussinessAccount"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
 </qualifiedTypeNameHistroy>
