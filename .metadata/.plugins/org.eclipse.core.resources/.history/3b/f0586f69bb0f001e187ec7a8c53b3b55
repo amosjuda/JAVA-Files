@@ -1,0 +1,46 @@
+package MethodsAbstr;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Locale;
+import java.util.Scanner;
+
+import MethodsAbstr.entities.Shape;
+import MethodsAbstr.entitiesEnum.Color;
+
+public class program {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Enter the number of shapes: ");
+		int n = sc.nextInt();
+		
+		for (int i = 1; i <= n; i++) {
+			System.out.println("Shape #" + i + " data:");
+			sc.nextLine();
+			System.out.print("Rectangle or Circle (r/c) ");
+			char rorc = sc.nextLine().charAt(0);
+			System.out.print("Color (BLACK/BLUE/RED): ");
+			Color color = Color.valueOf(sc.next());
+			System.out.print("Width: ");
+			double width = sc.nextDouble();
+			if(rorc == 'r') {
+				System.out.print("Height: ");
+				double height = sc.nextDouble();
+				Shape shape = new Shape(rorc, color, width, height);
+			}
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		sc.close();
+	}
+}

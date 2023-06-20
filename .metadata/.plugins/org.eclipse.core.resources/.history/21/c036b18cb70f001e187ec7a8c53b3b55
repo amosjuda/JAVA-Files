@@ -1,0 +1,10 @@
+package MethodsAbstr.entities;
+
+import MethodsAbstr.entitiesEnum.Color;
+
+public abstract class Shape {
+	private Color color;
+	
+	public Shape() {
+	}
+}

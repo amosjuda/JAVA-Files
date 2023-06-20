@@ -1,0 +1,5 @@
+package MethodsAbstr.entities;
+
+public class Shape {
+
+}
