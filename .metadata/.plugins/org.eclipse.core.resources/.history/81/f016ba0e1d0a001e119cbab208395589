@@ -1,5 +1,0 @@
-package exerFixentities;
-
-public enum OrderStatus {
-
-}
