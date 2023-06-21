@@ -1,0 +1,5 @@
+package exercSolved2products.entities;
+
+public class ImportedProduct {
+
+}
