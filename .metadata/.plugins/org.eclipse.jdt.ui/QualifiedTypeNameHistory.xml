@@ -14,7 +14,6 @@
     <fullyQualifiedTypeName name="exer2entities.Post"/>
     <fullyQualifiedTypeName name="entities.enums.aprendendoEnumerações.OrderStatus"/>
     <fullyQualifiedTypeName name="exerFixentities.OrderItem"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="exerFixentities.Order"/>
     <fullyQualifiedTypeName name="exerFixentities.enums.OrderStatus"/>
     <fullyQualifiedTypeName name="heritageAndPolymorphism.Program"/>
@@ -30,4 +29,7 @@
     <fullyQualifiedTypeName name="MethodsAbstr.entitiesEnum.Color"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="MethodsAbstr.entities.Rectangle"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="exercSolved2products.entities.UsedProduct"/>
+    <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
 </qualifiedTypeNameHistroy>
