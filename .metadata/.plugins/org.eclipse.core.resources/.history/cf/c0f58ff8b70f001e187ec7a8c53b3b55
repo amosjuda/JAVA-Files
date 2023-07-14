@@ -1,5 +1,0 @@
-package MethodsAbstr.entities;
-
-public class Circle extends Shape {
-
-}
