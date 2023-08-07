@@ -7,12 +7,14 @@ import java.util.Scanner;
 
 import model.entities.CarRental;
 import model.entities.Vehicle;
+import model.services.BrazilTaxService;
+import model.services.RentalService;
 
 public class Program {
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
 		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
 		
 		DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm");
 		
@@ -31,6 +33,14 @@ public class Program {
 		System.out.print("Enter price per day: ");
 		double pricePerDay = sc.nextDouble();
 		
+		RentalService rentalService = new RentalService(pricePerHour, pricePerDay, new BrazilTaxService());
+		
+		rentalService.processInvoice(cr);
+		
+		System.out.println("INVOICE: ");
+		System.out.println("Basic payment: "+ cr.getInvoice().getBasicPayment());
+		System.out.println("Tax: "+ cr.getInvoice().getTax());
+		System.out.println("Total pay: " + cr.getInvoice().getTotalPayment());
 		
 		sc.close();
 	}
