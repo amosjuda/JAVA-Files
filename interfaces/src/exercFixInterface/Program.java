@@ -1,9 +1,14 @@
 package exercFixInterface;
 
-import java.time.LocalDateTime;
+import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 import java.util.Scanner;
+
+import exercFixInterface.entities.Contract;
+import exercFixInterface.entities.Installment;
+import exercFixInterface.services.ContractService;
+import exercFixInterface.services.PaypalService;
 
 public class Program {
 
@@ -15,17 +20,24 @@ public class Program {
 		
 		System.out.println("Enter contact details: ");
 		System.out.print("Number: ");
-		int contactNumber = sc.nextInt();
+		int number = sc.nextInt();
 		System.out.print("Date (dd/MM/yyyy): ");
-		LocalDateTime date = LocalDateTime.parse(sc.nextLine(), fmt);
+		LocalDate date = LocalDate.parse(sc.next(), fmt);
 		System.out.print("Contract value: ");
-		double contractValue = sc.nextDouble();
+		double totalValue = sc.nextDouble();
+		
+		Contract obj = new Contract(number, date, totalValue);
+		
 		System.out.print("Enter with a installments number: ");
-		int installmentsNumber = sc.nextInt();
+		int n = sc.nextInt();
+		
+		ContractService contractService = new ContractService(new PaypalService());
+		
+		contractService.processContract(obj, n);
 		
 		System.out.println("Installments: ");
-		for(int i = 0; i< x; i++) {
-			System.out.println(" - ");
+		for(Installment installment : obj.getInstalments()) {
+			System.out.println(installment);
 		}
 		
 		sc.close();
