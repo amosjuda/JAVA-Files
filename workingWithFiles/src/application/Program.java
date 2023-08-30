@@ -15,7 +15,7 @@ public class Program {
 // 1° class
 //	public static void main(String[] args) {
 //		// to read the content inside the file
-//		File file= new File("c:\\temp\\in.txt");
+//		File file= new File("C:\\temp\\in.txt");
 //		Scanner sc = null;
 //		
 //		try {
@@ -65,7 +65,7 @@ public class Program {
 //	}
 // 3° class
 //	public static void main(String[] args) {
-//		String path = "c:\\temp\\in.txt";
+//		String path = "C:\\temp\\in.txt";
 //		
 //		try(BufferedReader br = new BufferedReader(new FileReader(path))){
 //			String line = br.readLine();
@@ -82,7 +82,7 @@ public class Program {
 //	public static void main(String[] args) {
 //		String[] lines = new String[] {"Good morning","Good afternoon","Good night"};
 //		
-//		String path = "c:\\temp\\out.txt";
+//		String path = "C:\\temp\\out.txt";
 //		try(BufferedWriter bw = new BufferedWriter(new FileWriter(path, true))){
 //			// this 'true' means you don't want recreate the file
 //			for(String line : lines) {
